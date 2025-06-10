@@ -1,0 +1,52 @@
+/* Basic reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; color: #1A1A1A; line-height: 1.5; }
+h1, h2, h3 { font-family: 'Poppins', sans-serif; color: #0D7746; }
+a { text-decoration: none; color: inherit; }
+
+/* Header */
+.site-header { display: flex; justify-content: space-between; align-items: center; padding: 16px 40px; background: #0D7746; }
+.site-header nav ul { display: flex; gap: 24px; }
+.site-header nav a { color: white; font-weight: 500; }
+
+/* Buttons */
+.btn-primary { background: #6AE8B2; color: #0D7746; padding: 12px 24px; border-radius: 8px; display: inline-block; margin-top: 16px; }
+.btn-secondary { background: #17985C; color: white; padding: 10px 20px; border: none; border-radius: 6px; }
+
+/* Hero */
+.hero { display: flex; justify-content: space-between; align-items: center; padding: 60px 40px; background: #17985C; color: white; }
+.hero-content { max-width: 50%; }
+.hero-content h1 { font-size: 48px; margin-bottom: 16px; }
+.hero-content p { font-size: 18px; margin-bottom: 16px; }
+.micro-stat { font-size: 12px; opacity: 0.8; }
+
+/* Carousel */
+.carousel { padding: 40px; background: #F7F9F8; }
+.slides { position: relative; overflow: hidden; }
+.slide { display: none; text-align: center; }
+.slide.active { display: block; }
+.slide img { max-width: 100%; height: auto; border-radius: 8px; }
+.caption { margin-top: 8px; font-size: 14px; }
+
+/* How It Works */
+.how-it-works { padding: 40px; text-align: center; }
+.steps { display: flex; justify-content: space-around; margin-top: 24px; }
+.step { width: 30%; }
+.step .icon { font-size: 32px; }
+.step p { margin-top: 8px; }
+
+/* Tabs */
+.use-cases { padding: 40px; background: #F0FFF6; }
+.tabs { display: flex; gap: 16px; justify-content: center; }
+.tab { padding: 8px 16px; border: 2px solid #0D7746; border-radius: 20px; background: none; color: #0D7746; cursor: pointer; }
+.tab.active { background: #17985C; color: white; }
+.tab-content { margin-top: 24px; }
+
+/* FAQ */
+.accordion .item + .item { margin-top: 8px; }
+.question { width: 100%; text-align: left; padding: 12px; font-weight: bold; border: 1px solid #6F6F6F; background: none; cursor: pointer; }
+.answer { display: none; padding: 12px; border: 1px solid #6F6F6F; border-top: none; }
+
+/* Footer */
+.site-footer { background: #F7F9F8; padding: 40px; text-align: center; }
+site-footer nav { margin: 16px 0; }
